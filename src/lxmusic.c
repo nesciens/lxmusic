@@ -1730,6 +1730,7 @@ static int on_playlist_content_changed( xmmsv_t* value, void* user_data )
         }
         case XMMS_PLAYLIST_CHANGED_SORT:
         case XMMS_PLAYLIST_CHANGED_SHUFFLE:
+        case XMMS_PLAYLIST_CHANGED_REPLACE:
         {
             update_play_list(playlist_view);
             break;
